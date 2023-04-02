@@ -1,4 +1,4 @@
-# RRPS : Rendering and Reconstruction Based 3D Portrait Stylization
+# Rendering and Reconstruction Based 3D Portrait Stylization
 Code for our paper:
 Code for our paper:
 > **Rendering and Reconstruction Based 3D Portrait Stylization**
