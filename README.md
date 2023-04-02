@@ -1,5 +1,5 @@
 # Rendering and Reconstruction Based 3D Portrait Stylization
-Code for our paper:
+
 Code for our paper:
 > **Rendering and Reconstruction Based 3D Portrait Stylization**
 > <br>Shaoxu Li, Ye Pan<br>
