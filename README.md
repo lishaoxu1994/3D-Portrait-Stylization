@@ -1,4 +1,8 @@
 # RRPS : Rendering and Reconstruction Based 3D Portrait Stylization
+Code for our paper:
+Rendering and Reconstruction Based 3D Portrait Stylization
+Shaoxu Li, Ye Pan
+Accepted by ICME2023
 
 Our code is based on code from DST's pytorch code.
 
