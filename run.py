@@ -59,12 +59,12 @@ if __name__ == '__main__':
     for i in range(0, len(listx)):
         content_folder_list.append(listx[i])
     style_list_all = list(range(1, 160))
-    lr = 0.5
+    lr = 1.0
     reg = 30
     warp = 5
     content_wei = 0
-    style_wei = 10
-    warp_lr = 30
+    style_wei = 20
+    warp_lr = 10
     for ind in range(0, len(content_folder_list)):
         content_folder = content_folder_list[ind]
         style_list = random.sample(style_list_all, 1)

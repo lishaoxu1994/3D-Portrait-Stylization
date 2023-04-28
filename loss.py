@@ -113,8 +113,10 @@ def pair_loss_cal(new_im1, new_im2, point_pair1, point_pair2, pair_flag, im_size
     #point_pair1_c = torch.reshape(point_pair1_c,(1,-1))
     #point_pair2_c = torch.reshape(point_pair2_c,(1,-1))
     pair_flag_temp = torch.reshape(pair_flag.clone(),(1,-1))
-    new_im1_r = (new_im1.clone().detach()[0, :, :, :].permute(1,2,0) + 1) * 127.5
-    new_im2_r = (new_im2.clone().detach()[0, :, :, :].permute(1,2,0) + 1) * 127.5
+    #new_im1_r = (new_im1.clone().detach()[0, :, :, :].permute(1,2,0) + 1) * 127.5
+    #new_im2_r = (new_im2.clone().detach()[0, :, :, :].permute(1,2,0) + 1) * 127.5
+    new_im1_r = (new_im1.clone()[0, :, :, :].permute(1,2,0) + 1) * 127.5
+    new_im2_r = (new_im2.clone()[0, :, :, :].permute(1,2,0) + 1) * 127.5
 
     new_im1_r = torch.reshape(new_im1_r, (-1, 3))
     new_im2_r = torch.reshape(new_im2_r, (-1, 3))
